@@ -1,0 +1,12 @@
+viseo_mdp_dbt_project:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: oauth
+      project: practice-modern-data-platform # Replace this with your project id
+      dataset: viseo_mdp_dbt  # Replace this with dbt_your_name, e.g. dbt_bob
+      threads: 4
+      timeout_seconds: 300
+      ##location: US
+      priority: interactive

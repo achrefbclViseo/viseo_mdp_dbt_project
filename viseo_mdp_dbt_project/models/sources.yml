@@ -1,0 +1,7 @@
+version: 2
+sources:
+  - name: datalake
+    tables:
+      - name : CUSTCUSTOMERV3STAGING_
+   
+
