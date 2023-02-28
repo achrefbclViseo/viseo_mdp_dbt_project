@@ -10,7 +10,7 @@ hashed_columns:
 
 {% set metadata_dict = fromyaml(yaml_metadata) %}
 
-{{ dbtvault.stage(include_source_columns=false,
+{{ dbtvault.stage(include_source_columns=true,
                   source_model=metadata_dict['source_model'],
                   derived_columns=metadata_dict['derived_columns'],
                   null_columns=none,

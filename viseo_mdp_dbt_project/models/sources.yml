@@ -3,5 +3,6 @@ sources:
   - name: datalake
     tables:
       - name : CUSTCUSTOMERV3STAGING_
+      - name : GENERALJOURNALACCOUNTENTRYREPORTINGSTAGING
    
 
